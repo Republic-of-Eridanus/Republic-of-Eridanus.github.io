@@ -1,0 +1,123 @@
+/* ERIDANUS GREEN: 415A41 */
+/* ERIDANUS GOLD: EFB838 */
+/* ERIDANUS DARK GOLD: 646D3F */
+
+/* some navbar idk*/
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+
+.dropdownmenu ul {
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+    display: block;
+	float: left;
+	position: relative;
+	width:auto;
+}
+
+.dropdownmenu {
+    padding: 5px;
+    margin: auto;
+}
+
+.stupidnavbar{
+    display: flex;
+    justify-content: center;
+}
+
+.dropdownmenu a {
+	background: #415A41;
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+.dropdownmenu li:hover a {
+	background: #000000;
+}
+
+.active a {
+	background: black;
+}
+
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #415A41;
+}
+#submenu a {
+	background-color:#000000;
+}
+
+#submenu .subactive a {
+	background: #415A41;
+}
+
+/* banner mmm*/
+.banner{
+    background-color: #415A41;
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #EFB838;
+}
+
+.bannerimg{
+    border: #FFFFFF 2px solid;
+    height: 80%;
+}
+
+.displayimage{
+    width: 80%;
+}
+
+.columnslayout{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.column{
+    width: 40%;
+}
+
+.inlinelink{
+    color: #EFB838;
+    text-decoration: none;
+}
