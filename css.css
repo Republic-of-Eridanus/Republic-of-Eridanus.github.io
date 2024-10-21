@@ -121,3 +121,23 @@ h1{
     color: #EFB838;
     text-decoration: none;
 }
+
+.line{
+    height: 2px;
+    width: 90%;
+    background-color: black;
+}
+
+.caption{
+    font-style: italic;
+    color: rgb(165, 165, 165);
+}
+
+.small-flag{
+    height: 50px;
+    vertical-align: middle;
+}
+
+.bold{
+    font-weight: bold;
+}
